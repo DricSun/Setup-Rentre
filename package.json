@@ -1,0 +1,26 @@
+{
+  "name": "setup",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DricSun/Setup-Rentre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DricSun/Setup-Rentre/issues"
+  },
+  "homepage": "https://github.com/DricSun/Setup-Rentre#readme",
+  "description": "",
+  "dependencies": {
+    "vite": "^4.4.9"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0"
+  }
+}
