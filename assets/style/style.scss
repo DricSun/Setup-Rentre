@@ -3,12 +3,14 @@
   margin: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  
 }
 
 @font-face {
   font-family: Pokemon Hollow;
   src: url(assets/fonts/Pokemon/Hollow.ttf) format("ttf");
 }
+
 body {
   background-color: black;
   width: 100%;
@@ -16,6 +18,9 @@ body {
   overflow-x: hidden;
   font-family: Pokemon Hollow;
 }
+
+
+
 
 img {
   width: 100%;
@@ -31,9 +36,10 @@ img {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 25px;
+
 }
 
-div {
+div{
   background-color: white;
   padding: 15px;
   border-radius: 15px;
@@ -41,8 +47,10 @@ div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 0 10px 2px  rgb(255, 255, 255);
+  // img{
+  //   transform: scale(2);
+  // }
 }
 
-
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
