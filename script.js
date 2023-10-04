@@ -18,6 +18,7 @@ for (let x = 1; x <= 150; x++) {  // boucle for qui va parcourir les 150 prmiers
 function RenderPokemon(pokemon){
 	const container = document.getElementById("containeur-poke") 
 	const blocPokemon = document.createElement("div")
+	blocPokemon.className = "blocPoke"
 	const namePoke = document.createElement("h4")
 	const idPoke = document.createElement("h3")
 	const imagePoke = document.createElement("img")
